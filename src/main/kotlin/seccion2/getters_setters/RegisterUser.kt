@@ -1,4 +1,4 @@
-package Seccion2.getters_setters
+package seccion2.getters_setters
 
 class RegisterUser {
     //yes -> User

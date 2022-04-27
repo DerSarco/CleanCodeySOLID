@@ -1,4 +1,4 @@
-package Seccion2.clases_objetos
+package seccion2.clases_objetos
 
 class Song(private val title: String, private val artist: String) {
 

@@ -1,7 +1,6 @@
-package Seccion2.constructores
+package seccion2.constructores
 
 import java.time.LocalDateTime
-import java.time.LocalTime
 import java.time.Month
 
 fun main() {

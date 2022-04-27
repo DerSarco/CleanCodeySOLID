@@ -1,4 +1,4 @@
-package Seccion2.clases_objetos
+package seccion2.clases_objetos
 
 fun main(args: Array<String>) {
 

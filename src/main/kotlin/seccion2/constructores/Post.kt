@@ -1,4 +1,4 @@
-package Seccion2.constructores
+package seccion2.constructores
 
 import java.time.LocalDateTime
 
