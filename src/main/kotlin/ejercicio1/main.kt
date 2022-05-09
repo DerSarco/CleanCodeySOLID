@@ -24,10 +24,11 @@ fun main() {
 
     println()
 
-    container.color
+    container.color = "Green"
     val extendedFAB = ExtendedFAB(container = container, label = label)
     extendedFAB.setOnClickListener()
     extendedFAB.showIcon()
+    extendedFAB.showLabel()
 
 
 }
