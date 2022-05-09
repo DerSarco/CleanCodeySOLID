@@ -5,7 +5,7 @@ import ejercicio1.domain.model.fab.regular.properties.Container
 import ejercicio1.domain.model.fab.regular.properties.Icon
 
 
-class RegularFAB(container: Container, icon: Icon): FloatingActionButton(container, icon){
+class RegularFAB(override val container: Container, override val icon: Icon): FloatingActionButton(){
 
     override fun setOnClickListener() {
         println("This is a Regular FAB")
