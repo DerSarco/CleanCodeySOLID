@@ -4,7 +4,7 @@ import ejercicio1.domain.model.fab.properties.Label
 import ejercicio1.domain.model.fab.regular.properties.Container
 import ejercicio1.domain.model.fab.regular.properties.Icon
 
-open class ExtendedFloatingActionButton(
+abstract class ExtendedFloatingActionButton(
     private val container: Container,
     private var icon: Icon?,
     private val label: Label
