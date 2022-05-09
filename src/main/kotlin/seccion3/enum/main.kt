@@ -8,6 +8,10 @@ fun main() {
     val connectionType = ConnectionType.WIFI
     println(connectionType)
 
+    connectionType.let {
+
+    }
+
     println()
 
     val whiteHex = Color.WHITE.hexa
