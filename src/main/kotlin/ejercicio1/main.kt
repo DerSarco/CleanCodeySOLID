@@ -25,8 +25,9 @@ fun main() {
     println()
 
     container.color
-    val extendedFAB = ExtendedFAB(container, icon, label)
+    val extendedFAB = ExtendedFAB(container = container, label = label)
     extendedFAB.setOnClickListener()
+    extendedFAB.showIcon()
 
 
 }

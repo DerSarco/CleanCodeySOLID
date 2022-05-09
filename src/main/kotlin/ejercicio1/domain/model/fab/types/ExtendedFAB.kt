@@ -5,7 +5,9 @@ import ejercicio1.domain.model.fab.properties.Label
 import ejercicio1.domain.model.fab.regular.properties.Container
 import ejercicio1.domain.model.fab.regular.properties.Icon
 
-class ExtendedFAB(private val container: Container, val icon: Icon, val label: Label) :
+
+//Icon could be optional, for that, the default value of icon is null
+class ExtendedFAB(container: Container, icon: Icon? = Icon(), private val label: Label) :
     ExtendedFloatingActionButton(container, icon, label) {
     override fun setOnClickListener() {
         println("This is an Extended FAB")

@@ -6,7 +6,7 @@ import ejercicio1.domain.model.fab.regular.properties.Icon
 
 open class FloatingActionButton(
     private val container: Container,
-    private val icon: Icon
+    private val icon: Icon?
 ) : Actions {
     override fun setOnClickListener() {
         println("Execution ${javaClass.name}: Container Color: ${container.color} - Container Elevation: ${container.elevation}")
